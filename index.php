@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Sobre min</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Sobre mim</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
@@ -71,7 +71,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Experiência</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -125,28 +125,29 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5">Formação</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0">Universidade Federal de Pernambuco</h3>
+            <div class="subheading mb-3">Bacharel em Design</div>
+            <div>TECNOLOGIAS DE PROTOTIPAGEM RÁPIDA APLICADA AO DESIGN DE PRODUTO: UM ESTUDO DE CASO - MONOGRAFIA | 122 PÁGINAS</div>
+            <p>Orientador: Manoel Guedes Alcoforado Neto</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary">Agosto de 2011 - Dezembro de 2016</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 class="mb-0">Politec</h3>
+            <div class="subheading mb-3">técnico em segurança do trabalho</div>
+            <div>BOLSISTA PRONATEC - BRASIL</div>
+            <p>UNIDADE CARUARU</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
+            <span class="text-primary">Outubro de 2015 - Março de  2017</span>
           </div>
         </div>
 
