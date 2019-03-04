@@ -158,62 +158,90 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5">Habilidades</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">Ferramentas</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-microsoft"></i>
+          </li>
+           <li class="list-inline-item">
+            <i class="fab fa-adobe"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <i class="far fa-file-pdf"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <i class="far fa-file-word"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <i class="fab fa-fly"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <i class="fas fa-laptop-code"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
+
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">Linguagens de Programação</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-cpanel"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-github"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-google-play"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="fab fa-android"></i>
+            </li>
+          </ul>
+
+         <div class="subheading mb-3">Sistemas operacionais</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-windows"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-apple"></i>
+            </li>
+          </ul>
+        <br><br>
+        <div class="subheading mb-3">Fluxo de trabalho</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
+            Análise do Problema</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            Pesquisa (referências)</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
+            Geração das alternativas</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
+            Exploração das alternativas</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Realização da melhor alternativa</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Avaliação da alternativa</li>
+
         </ul>
       </div>
     </section>
