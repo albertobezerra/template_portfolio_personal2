@@ -72,51 +72,81 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <h3 class="mb-0">Designer e Desenvolvedor</h3>
+            <div class="subheading mb-3">Seletto Eventos</div>
+            <p>Tratamento de imagem para meios impressos e digitias, desenvolvimento de material para redes sociais, diagramação de albúns de fotografias, assim como desenvovlvimento de site em wordpress. </p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
+            <span class="text-primary">Julho de 2016 - Até os dias de hoje</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <h3 class="mb-0">Designer Freelancer</h3>
+            <div class="subheading mb-3">MEDLUZ</div>
+            <p>Desenvolvimento de material impresso e digital como: panfletos e cartazes direcionados para a venda de protudos de iluminação, assim como desenvolvimento de material institucional e de venda para redes sociais.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
+            <span class="text-primary">Setembro de 2017 - Novembro de 2017</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            <h3 class="mb-0">UX Designer Freelancer</h3>
+            <div class="subheading mb-3">Openredu</div>
+            <p>Atuação no desenvivolmento de pesquisa para implementação de layout intuitivo com foco na redução de ações para chegar no objetivo final. Também desenvolvi material digital como: template para rede social, template para slides e reuniões.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
+            <span class="text-primary">Julho de 2017 - Setembro de 2017</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Designer Freelancer</h3>
+            <div class="subheading mb-3">Muda</div>
+            <p>Desenvolvimento de material impresso como: cardápios e envelopamento de máquinas (vending machine), bem como a confecção de material para as mídias sociais focando no desenvolvimento da identidade da marca.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Novembro de 2016 - Novembro de 2017</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Estagiário de Design</h3>
+            <div class="subheading mb-3">Tauá Comunicação</div>
+            <p>Atuação no desenvolvimento de mídias impressas e digitias. Envolvimento no desenvolvimento de material de campanhas institucionais, como também desenvolvimento de material de branding para clientes da agência e arte finalização de material impresso e digital.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Novembro de 2015 - Julho de 2016</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            <h3 class="mb-0">Editor de Imagens</h3>
+            <div class="subheading mb-3">Seletto Eventos</div>
+            <p>Tratamento de imagens para fins de impressão em formatos pequenos e grandes, assim como para aplicação em mídias para eventos como: totens, réplicas, placas, apresentação digital, website e redes sociais.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
+            <span class="text-primary">Março de 2012 - Janeiro de 2016</span>
           </div>
         </div>
 
       </div>
 
     </section>
+
+
+
+
+
+
+
+
 
     <hr class="m-0">
 
@@ -150,6 +180,13 @@
 
       </div>
     </section>
+
+
+
+
+
+
+
 
     <hr class="m-0">
 
@@ -245,6 +282,13 @@
 
 
 
+
+
+
+
+
+
+
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
@@ -283,6 +327,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     <hr class="m-0">
 
 
@@ -294,9 +349,38 @@
 
         <div class="row">
 
-
-
-
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div>
+            </div>
+        </div>
 
 
       </div>

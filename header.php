@@ -22,6 +22,8 @@
   <!-- Custom styles for this template -->
   <link href="<?php bloginfo('template_url') ?>/assets/css/resume.min.css" rel="stylesheet">
 
+  <link href="<?php bloginfo('template_url') ?>/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
 
 </head>
 
