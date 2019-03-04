@@ -4,7 +4,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-primary-custom  fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-block d-lg-none">Alberto Bezerra</span>
 
         <span class="d-none d-lg-block">
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="img-fluid img-profile rounded-circle mx-auto mb-2" >
@@ -17,22 +17,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Sobre min</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#education">Formação</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          <a class="nav-link js-scroll-trigger" href="#interests">Interesses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
         </li>
       </ul>
     </div>
@@ -43,24 +46,21 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Clarence
-          <span class="text-primary">Taylor</span>
+        <h1 class="mb-0">Alberto
+          <span class="text-primary">Bezerra</span>
         </h1>
-        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-          <a href="mailto:name@email.com">name@email.com</a>
+        <div class="subheading mb-5">Avenida México 15 A · Nossa Senhora das Dores · Caruaru - PE · + 55 (81) 997-299-678 ·
+          <a href="mailto:contato@equipebezerradasilva.com.br" class="cor-email">contato@equipebezerradasilva.com.br</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">Designer pela Universidade Federal de Pernambuco, pesquiso na área de Design de Produto, Sustentabilidade, Prototipagem Rápida, Impressão 3D, Produtos Individualizados, Ergonomia aplicada ao Posto de Trabalho e Saúde e Segurança do Trabalho. Quando se trata da área de atuação, desenvolvo projetos de design para meios impressos e digitais.</p>
         <div class="social-icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/alberto-bezerra-92a70229/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/albertobezerra" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
+          <a href="https://www.facebook.com/AlbertoBezerraa" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
