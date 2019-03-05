@@ -298,18 +298,28 @@
 
         <div class="row">
 
+          <?php 
+            $args = array('post_type'=>'post', 'category_name'=>'portfolio');
+            $my_posts = get_posts( $args );
+            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
+            ?>
+
         <div class="col-md-4">
           <div class="work-box">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/work-1.jpg" data-lightbox="gallery-mf">
+
+            <a href="<?php the_permalink(); ?>">
+
               <div class="work-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/work-1.jpg" alt="" class="img-fluid">
+                <?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?> 
               </div>
+
               <div class="work-content">
+
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <h2 class="w-title"><?php the_title(); ?></h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Set 2018</span>
+                      <span class="w-ctegory"><?php echo strip_tags(get_the_tag_list('',', ',''));?></span> / <span class="w-date"><?php the_time('d M Y') ?></span>
                     </div>
                   </div>
                 </div>
@@ -317,6 +327,11 @@
             </a>
           </div>
         </div>
+
+        <?php
+              endforeach;
+              endif;
+            ?>
 
 
 
@@ -349,38 +364,47 @@
 
         <div class="row">
 
+          <?php 
+            $args = array('post_type'=>'post', 'category_name'=>'blog');
+            $my_posts = get_posts( $args );
+            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
+            ?>
+
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                <a href="<?php the_permalink(); ?>">
+                  <?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Travel</h6>
+                    <h6 class="category"><?php echo strip_tags(get_the_tag_list('',', ',''));?></h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
+                <h3 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <p class="card-description"><?php the_excerpt(); ?></p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+
+                    <?php echo get_avatar( get_the_author_meta('ID'), $args['96'], '', 'avatar', array('class' => 'avatar rounded-circle') ); ?>
+
+                    <span class="author"><?php the_author() ?></span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
+                  <span class="ion-ios-clock-outline"></span> <?php the_time('M,y') ?>
                 </div>
               </div>
             </div>
         </div>
+
+            <?php
+              endforeach;
+              endif;
+            ?>
 
 
       </div>
@@ -388,14 +412,5 @@
 
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
   
 <?php get_footer(); ?>

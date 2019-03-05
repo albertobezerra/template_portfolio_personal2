@@ -9,5 +9,10 @@ function add_estilos_e_scripts() {
 add_action( 'wp_enqueue_scripts', 'add_estilos_e_scripts' );
 
 
+function add_suport_theme(){
+    add_theme_support( 'post-thumbnails' );
+}
+add_action('after_setup_theme','add_suport_theme');
+
 
  ?>
