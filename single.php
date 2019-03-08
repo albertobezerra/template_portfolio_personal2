@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Sobre mim</a>
+          <a class="nav-link js-scroll-trigger" href="index.php">Sobre mim</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
@@ -45,8 +45,14 @@
 
 
 		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-		<h3 class="mb-5"><?php the_title(); ?></h3>
-		<p class="lead mb-5"><?php the_content(); ?></p>
+
+			
+			<h3 class="mb-5"><?php the_title(); ?></h3>
+			
+			<?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?> 
+			
+			<p class="lead mb-5"><?php the_content(); ?></p>
+
 		<?php endwhile; endif; ?>
 
 		</div>
