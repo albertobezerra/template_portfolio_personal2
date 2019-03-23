@@ -45,15 +45,36 @@
 
 
 		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+			
+			<?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?>
 
-			
-			<h3 class="mb-5"><?php the_title(); ?></h3>
-			
-			<?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?> 
-			
-			<p class="lead mb-5"><?php the_content(); ?></p>
+      <h3><?php the_title(); ?></h3>
 
-		<?php endwhile; endif; ?>
+      <b>Escrito por <span class="cor"><?php the_author() ?></span> em <?php the_time('d/m/y') ?></b><br><br><br>
+			
+      <?php the_content(); ?>
+
+		<?php endwhile; endif; ?><br><br>
+
+    <div class="post-pag-wrap">
+              
+              <div class="post-pag-container prev">
+                <?php previous_post_link('
+                  <span>Post anterior</span>
+                  <h3>%link</h3>
+                  ', '%title', false);
+                ?>
+              </div>
+
+              <div class="post-pag-container next">
+                <?php next_post_link('
+                  <span>Próximo post</span>
+                  <h3>%link</h3>
+                  ', '%title', false);
+                ?>
+              </div>
+
+      </div>
 
 		</div>
 
