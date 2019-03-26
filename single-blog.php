@@ -16,11 +16,13 @@
       <ul class="navbar-nav">
 
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
+          <a class="nav-link js-scroll-trigger" href="index.php">VOLTAR AO INICIO</a>
         </li>
-        
         <li class="nav-item-custom">
-        Nome qualuqer
+        <a class="nav-link js-scroll-trigger" href="">TODOS OS POST'S DO BLOG</a>
+        </li>
+        <li class="nav-item-custom">
+        <a class="nav-link js-scroll-trigger" href="">IR PARA O PORTFÓLIO</a>
         </li>
 
       </ul>
