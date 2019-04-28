@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-primary-custom  fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <a class="navbar-brand js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto">
       <span class="d-block d-lg-none">Alberto Bezerra</span>
 
         <span class="d-none d-lg-block">
@@ -16,13 +16,16 @@
       <ul class="navbar-nav">
 
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="index.php">VOLTAR AO INICIO</a>
+          <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto">VOLTAR AO INICIO</a>
         </li>
         <li class="nav-item-custom">
-        <a class="nav-link js-scroll-trigger" href="">TODOS OS POST'S DO BLOG</a>
+        <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto/posts-do-blog">TODOS OS POST'S DO BLOG</a>
         </li>
         <li class="nav-item-custom">
-        <a class="nav-link js-scroll-trigger" href="">IR PARA O PORTFÓLIO</a>
+        <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto/posts-do-portfolio">TODOS OS POST'S DO PORTFÓLIO</a>
+        </li>
+        <li class="nav-item-custom">
+        <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto/contato">ENTRAR EM CONTATO</a>
         </li>
 
       </ul>
@@ -78,7 +81,7 @@
 
 <?php
 /*
-Single Post Template: [Blog]
+Single Post Template: [Post_Blog]
 Description: This part is optional, but helpful for describing the Post Template
 */
 ?>
