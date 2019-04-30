@@ -1,7 +1,8 @@
-<div id="footer">
-<p>&copy; 2012 - Todos os Direitos Reservados</p>
+<p class="rola01">&copy; 2019 - Todos os Direitos Reservados</p>
+
+
+
 <?php wp_footer(); ?>
-</div>
  
 
  
