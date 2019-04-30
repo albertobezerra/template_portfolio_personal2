@@ -24,9 +24,7 @@
         <li class="nav-item-custom">
         <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto/posts-do-portfolio">TODOS OS POST'S DO PORTFÓLIO</a>
         </li>
-        <li class="nav-item-custom">
-        <a class="nav-link js-scroll-trigger" href="http://www.equipebezerradasilva.com.br/alberto/contato">ENTRAR EM CONTATO</a>
-        </li>
+
 
       </ul>
     </div>
