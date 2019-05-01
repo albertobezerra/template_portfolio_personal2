@@ -49,6 +49,17 @@
 
 		<?php endwhile; endif; ?><br><br>
 
+    <script type="text/javascript">
+    google_ad_client = "ca-pub-7979689703488774";
+    google_ad_slot = "3454144912";
+    google_ad_width = 970;
+    google_ad_height = 90;
+    </script>
+    <!-- fim de postagem -->
+    <script type="text/javascript"
+    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+
     <div class="post-pag-wrap">
               
               <div class="post-pag-container prev">
