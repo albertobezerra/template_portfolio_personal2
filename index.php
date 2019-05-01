@@ -46,7 +46,7 @@
         <h1 class="mb-0">Alberto
           <span class="text-primary">Bezerra</span>
         </h1>
-        <div class="subheading mb-5">Avenida México 15 A · Nossa Senhora das Dores · Caruaru - PE · + 55 (81) 997-299-678 ·
+        <div class="subheading mb-5">Avenida México 15 A · Nossa Senhora das Dores · Caruaru - PE · + 55 (81) 988-070-093·
           <a href="mailto:contato@equipebezerradasilva.com.br" class="cor-email">contato@equipebezerradasilva.com.br</a>
         </div>
         <p class="lead mb-5">Designer pela Universidade Federal de Pernambuco, pesquiso na área de Design de Produto, Sustentabilidade, Prototipagem Rápida, Impressão 3D, Produtos Individualizados, Ergonomia aplicada ao Posto de Trabalho e Saúde e Segurança do Trabalho. Quando se trata da área de atuação, desenvolvo projetos de design para meios impressos e digitais.</p>

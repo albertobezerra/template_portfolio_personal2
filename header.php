@@ -6,7 +6,7 @@
 
   <title><?php wp_title('-',true,'right'); bloginfo(); ?></title>
 
-  <link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/img/favicon.png" type="image/x-icon">
 
   <?php wp_head(); ?>
 
