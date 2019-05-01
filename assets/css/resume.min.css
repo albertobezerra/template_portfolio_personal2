@@ -245,3 +245,71 @@ p.rola01{
   margin-left: 43px;
   color:#F0616E;
 }
+
+
+#comments{
+    border-top:3px solid #F0616E;
+    color: #F0616E;
+}
+
+#comments h3{
+    font-size:20px;
+    margin:20px 0;
+}
+
+ol.commentlist{
+list-style:none;
+}
+
+ol.commentlist li{
+margin-bottom:30px;
+}
+
+ol.commentlist ul{
+    margin:0px;
+}
+ 
+ol.commentlist ul li{
+    margin:20px 20px 20px 40px;
+    list-style:none;
+}
+
+#respond{
+
+}
+
+#respond form label{
+    float:left;
+    clear:left;
+    width:60px;
+    text-align:right;
+    margin-right:10px;
+}
+
+#respond form input{
+    float:left;
+    width:250px;
+    margin-bottom:10px;
+    margin-left: 30px;
+    border-color: #F0616E;
+    color: #F0616E;
+}
+
+#respond form textarea{
+    float:left;
+    width:400px;
+    height:100px;
+    margin-bottom:10px;
+    margin-left: 30px;
+    border-color: #F0616E;
+    color: #F0616E;
+} 
+
+#respond form input.commentsubmit{
+    float:left;
+    clear:left;
+    margin-left:99px;
+    border-color: #F0616E;
+    color: white;
+    background: #F0616E;
+}

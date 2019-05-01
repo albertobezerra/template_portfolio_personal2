@@ -49,6 +49,8 @@
 
 		<?php endwhile; endif; ?><br><br>
 
+    <?php comments_template(); ?>
+
     <script type="text/javascript">
     google_ad_client = "ca-pub-7979689703488774";
     google_ad_slot = "3454144912";
