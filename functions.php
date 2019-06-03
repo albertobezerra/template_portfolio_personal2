@@ -1,5 +1,17 @@
 <?php 
 
+/**************************************
+ * Delimita o tamanho do resumo (excerpt)
+ **************************************/
+function novo_tamanho_do_resumo($length) {
+  return 20;
+}
+add_filter('excerpt_length', 'novo_tamanho_do_resumo');
+
+
+
+
+
 function add_estilos_e_scripts() {
   wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/vendor/jquery/jquery.min.js', array ( 'jquery' ), 1.1, true);
   wp_enqueue_script( 'script2', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', array ( 'jquery' ), 1.1, true);
