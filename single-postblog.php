@@ -62,25 +62,6 @@
             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
             </script>
 
-            <div class="post-pag-wrap">
-
-                <div class="post-pag-container prev">
-                    <?php previous_post_link('
-                  <span>Post anterior</span>
-                  <h3>%link</h3>
-                  ', '%title', false);
-                ?>
-                </div>
-
-                <div class="post-pag-container next">
-                    <?php next_post_link('
-                  <span>Próximo post</span>
-                  <h3>%link</h3>
-                  ', '%title', false);
-                ?>
-                </div>
-
-            </div>
 
         </div>
 
