@@ -196,80 +196,65 @@
 
                 <div class="subheading mb-3">Ferramentas</div>
                 <ul class="list-inline dev-icons">
-                   
-                    <li class="list-inline-item">
-                        <svg x="0px" y="0px" viewBox="0 0 512 512">
-                            <circle style="fill:#4F3030;" cx="256" cy="256" r="256" />
-                            <path style="fill:#241616;" d="M233.603,511.014C240.986,511.654,248.451,512,256,512c141.385,0,256-114.615,256-256
-                            c0-8.375-0.415-16.653-1.202-24.822l-116.42-116.42h-53.721v100.944c-16.571-18.861-36.201-28.294-58.885-28.294
-                            c-10.75,0-20.691,1.697-29.827,5.081l-77.732-77.732h-56.591v280.274L233.603,511.014z" />
-                            <g>
-                                <path style="fill:#DF3A5C;" d="M117.622,395.032V114.758h56.591v280.274H117.622z" />
-                                <path style="fill:#DF3A5C;" d="M394.378,395.032h-49.9v-29.824c-16.764,23.464-40.861,34.412-63.472,34.412
-                                c-23.325,0-43.304-9.398-59.937-28.2c-16.631-18.799-24.948-45.023-24.948-78.672c0-34.412,8.092-60.571,24.279-78.479
-                                c16.184-17.905,36.643-26.861,61.37-26.861c22.684,0,42.314,9.433,58.885,28.294V114.758h53.722V395.032z M250.991,289.116
-                                c0,21.669,2.994,37.346,8.985,47.031c8.665,14.023,20.775,21.031,36.325,21.031c12.36,0,22.876-5.257,31.544-15.773
-                                c8.668-10.515,13.001-26.222,13.001-47.127c0-23.324-4.206-40.115-12.617-50.377c-8.411-10.258-19.183-15.391-32.309-15.391
-                                c-12.747,0-23.422,5.067-32.025,15.2C255.293,253.844,250.991,268.98,250.991,289.116z" />
-                            </g>
-                        </svg>
 
+                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                        <svg class="icones" viewBox="0 0 512 512">
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z" />
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M210.942,210.64h-36.96v55.2h38.4c11.618,0,21.36-10.84,21.36-27.6C233.743,223.84,225,210.64,210.942,210.64z" />
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M60,60v392h392V60H60z M214.303,294.88h-40.32V352h-33.12V181.6h72.24c33.064,0,54.24,30.4,54.24,56.64
+                                    C267.343,269.167,243.833,294.88,214.303,294.88z M334.779,354.4c-29.029,0-49.68-13.2-56.88-19.44l12-20.16
+                                    c7.68,5.441,25.351,16.56,44.16,16.56c12.191,0,20.64-5.11,20.64-13.92c0-10.815-17.843-14.317-27.6-17.04
+                                    c-8.16-2.239-44.88-7.4-44.88-35.04c0-26.61,23.156-41.52,49.44-41.52c27.591,0,42.319,11.201,49.2,17.28l-12.96,19.44
+                                    c-6.401-4.8-20.649-13.92-36.48-13.92c-11.669,0-19.2,4.985-19.2,14.16c0,11.45,20.078,14.722,24.72,15.84
+                                    c8.64,2.242,48.72,8.36,48.72,37.92C385.659,349.5,350.458,354.4,334.779,354.4z" />
+                                </g>
+                            </g>
+
+                        </svg>
                     </li>
-                    
+
                     <li class="list-inline-item">
-                        <i class="fab fa-adobe"></i>
+                        <svg class="icones" viewBox="0 0 512 512" >
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z" />
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <polygon points="222.142,219.28 197.662,286.24 245.662,286.24 		" />
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M60,60v392h392V60H60z M267.502,352l-15.84-42.48h-59.52l-15.6,42.48h-34.08l65.04-170.4h29.28l64.8,170.4H267.502z
+			                         M349.341,352h-32.159V226.24h32.159V352z M349.341,208.72h-32.159V176.8h32.159V208.72z" />
+                                </g>
+                            </g>
+
+                        </svg>
                     </li>
-                    <li class="list-inline-item">
-                        <i class="far fa-file-pdf"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="far fa-file-word"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-fly"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fas fa-laptop-code"></i>
-                    </li>
+
 
                 </ul>
 
                 <div class="subheading mb-3">Linguagens de Programação</div>
                 <ul class="list-inline dev-icons">
+
                     <li class="list-inline-item">
-                        <i class="fab fa-html5"></i>
+
                     </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-cpanel"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-github"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-google-play"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-java"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-android"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" class="icones">
-                            <path fill="none" d="M0 0h24v24H0z" />
-                            <path d="M20 2h-8C6.38 2 2 6.66 2 12.28 2 17.5 6.49 22 11.72 22 17.39 22 22 17.62 22 12V4c0-1.1-.9-2-2-2zm-3 13l-3-2v2H7V9h7v2l3-2v6z" /></svg>
-                    </li>
-                    <li class="list-inline-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path fill="none" d="M0 0h24v24H0z" />
-                            <path d="M20 2h-8C6.38 2 2 6.66 2 12.28 2 17.5 6.49 22 11.72 22 17.39 22 22 17.62 22 12V4c0-1.1-.9-2-2-2zm-3 13l-3-2v2H7V9h7v2l3-2v6z" /></svg>
-                    </li>
+
                 </ul>
 
                 <div class="subheading mb-3">Sistemas operacionais</div>
@@ -281,7 +266,9 @@
                         <i class="fab fa-apple"></i>
                     </li>
                 </ul>
+
                 <br><br>
+
                 <div class="subheading mb-3">Fluxo de trabalho</div>
                 <ul class="fa-ul mb-0">
                     <li>

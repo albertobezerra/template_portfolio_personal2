@@ -501,9 +501,11 @@ ol.commentlist ul li {
 }
 
 .icones {
-    fill: #868e96;
+    fill: #868e96!important;
+    width: 50px;
+    height: 50px;
 }
 
 .icones:hover {
-    fill: #F0616E;
+    fill: #F0616E !important;
 }
