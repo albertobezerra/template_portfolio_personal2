@@ -27,4 +27,5 @@ function add_suport_theme(){
 add_action('after_setup_theme','add_suport_theme');
 
 
+
  ?>
